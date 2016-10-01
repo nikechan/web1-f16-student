@@ -1,0 +1,86 @@
+body {
+	font-family: "Open Sans";
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 43em;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	font-size: .75em;
+	list-style-type: none;
+	margin-right: 3em;
+	display: inline;
+	letter-spacing: 2px;
+	color: gray;
+}
+nav, a, a:visited {
+	color:gray;
+	text-decoration: none;
+}
+a:hover {
+	color: #76BE34;
+}
+
+
+
+h1 {
+	font-family: "Borgstrand";
+	font-size: 2em;
+	color: salmon;
+	border:solid 3px salmon;
+	padding: 7px;
+}
+
+
+
+#sachintitle {
+	font-family: "Borgstrand";
+	font-size: 6em;
+	color: salmon;
+	border:solid 5px salmon;
+	padding: 15px;
+	max-width: 43em;
+}
+a, a:visited, #sachintitle {
+	color: salmon;
+}
+a:hover, #sachintitle {
+	color: #76BE34;
+}
+#sachin_minititle {
+	max-width: 4em;
+	display: inline-block;
+}
+
+
+
+h2 {
+	font-size: 1.25em;
+	color: #76BE34;
+	letter-spacing: 1.6px;
+}
+p {
+	font-size: .90em;
+	color: gray;
+	line-height: 2.5;
+
+}
+a.button { 
+	   background-color: white;
+	       border: solid 1px gray;
+	       color: gray;
+	       padding: 4px 20px;
+	       text-align: center;
+	       text-decoration: non;
+	       display: inline-block;
+	       font-size: 15px;
+}
+figcaption {
+	color: gray;
+	font-size: .75em;
+	width: 500px;
+    height: 50px;
+}

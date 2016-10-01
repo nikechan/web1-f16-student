@@ -1,0 +1,35 @@
+body {
+	font-family: "Acrom";
+	margin-top: 5em;
+	margin-left: 5em;
+	margin-right: auto;
+	max-width: 43em;
+}
+
+h1 {
+	font-family: "Acrom"
+	font-size: 2em;
+	border: solid 2px black;
+	padding: 5px;
+}
+ul {
+	list-style-type: none;
+}
+ul li {
+	font-family: "Courier New";
+	list-style-type: circle;
+	font-size: 1em;
+	color: black;
+	line-height: 1.5;
+}
+a, a:visited {
+	color: teal;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+p {
+	font-family: "Courier New";
+	line-height: 1.5;
+}
