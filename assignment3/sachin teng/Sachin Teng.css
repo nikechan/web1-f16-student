@@ -55,8 +55,6 @@ a:hover, #sachintitle {
 	display: inline-block;
 }
 
-
-
 h2 {
 	font-size: 1.25em;
 	color: #76BE34;
@@ -78,9 +76,27 @@ a.button {
 	       display: inline-block;
 	       font-size: 15px;
 }
-figcaption {
+
+img.center {
+	display: block;
+	margin: 0 auto;
+}
+.work-images, .personal-images {
+    background-color: white;
+    margin-bottom: 4em;
+    border: solid 2px gray;
+    padding: 1em;
+    max-width: 10em
+}
+.work-images img, .personal-images img {
+	vertical-align: top;
+    display: inline-block;
+	margin-bottom: 0.5em;
+}
+figure figcaption {
 	color: gray;
 	font-size: .75em;
 	width: 500px;
     height: 50px;
+    text-align: center;
 }
