@@ -33,3 +33,7 @@ p {
 	font-family: "Courier New";
 	line-height: 1.5;
 }
+img {
+	max-width: 35em;
+	margin-bottom: 3em;
+}
