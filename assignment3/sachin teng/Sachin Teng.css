@@ -5,10 +5,10 @@ body {
 	margin-right: auto;
 	max-width: 43em;
 }
-nav ul{
+nav ul {
 	list-style-type: none;
 }
-nav ul li{
+nav ul li {
 	font-size: .75em;
 	list-style-type: none;
 	margin-right: 3em;
@@ -23,7 +23,6 @@ nav, a, a:visited {
 a:hover {
 	color: #76BE34;
 }
-
 
 
 h1 {
@@ -55,6 +54,8 @@ a:hover, #sachintitle {
 	display: inline-block;
 }
 
+
+
 h2 {
 	font-size: 1.25em;
 	color: #76BE34;
@@ -66,37 +67,27 @@ p {
 	line-height: 2.5;
 
 }
+
+.work-images, .personal-images {
+	max-width: 15em;
+	margin: 5px;
+	margin-bottom: 0.5em;
+}
+figure figcaption {
+	color: gray;
+	font-size: .75em;
+	width: 15em;
+    height: 5em;
+    text-align: left;
+}
+
 a.button { 
 	   background-color: white;
 	       border: solid 1px gray;
 	       color: gray;
 	       padding: 4px 20px;
 	       text-align: center;
-	       text-decoration: non;
+	       text-decoration: none;
 	       display: inline-block;
 	       font-size: 15px;
-}
-
-img.center {
-	display: block;
-	margin: 0 auto;
-}
-.work-images, .personal-images {
-    background-color: white;
-    margin-bottom: 4em;
-    border: solid 2px gray;
-    padding: 1em;
-    max-width: 10em
-}
-.work-images img, .personal-images img {
-	vertical-align: top;
-    display: inline-block;
-	margin-bottom: 0.5em;
-}
-figure figcaption {
-	color: gray;
-	font-size: .75em;
-	width: 500px;
-    height: 50px;
-    text-align: center;
 }
