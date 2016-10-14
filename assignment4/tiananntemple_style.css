@@ -1,0 +1,37 @@
+body {
+	font-family: "Proxima Nova"
+
+}
+
+h2 {
+	font-size: 1.5em;
+	letter-spacing: 2.5px;
+}
+
+h3 {
+	letter-spacing: 2.5px;
+}
+
+p {
+	font-family: "Courier New"
+	margin-bottom: 5px;
+}
+
+u {
+	font-family: "Courier New"
+}
+
+u ul {
+	font-family: "Courier New"
+	margin-bottom: 1em;
+}
+
+a, a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: #76BE34;
+}
+
+
