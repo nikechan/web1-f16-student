@@ -1,37 +1,50 @@
 body {
-	font-family: "Proxima Nova"
-
+	font-family: "Proxima Nova";
+	margin-top: 5em;
+	margin-left: 5em;
+	margin-right: auto;
+	max-width: 45em;
 }
 
 h2 {
+	font-family: "Proxima Nova";
 	font-size: 1.5em;
-	letter-spacing: 2.5px;
+	letter-spacing: 1px;
 }
 
 h3 {
-	letter-spacing: 2.5px;
-}
-
-p {
-	font-family: "Courier New"
-	margin-bottom: 5px;
-}
-
-u {
-	font-family: "Courier New"
-}
-
-u ul {
-	font-family: "Courier New"
+	font-family: "Proxima Nova";
+	letter-spacing: 1px;
 	margin-bottom: 1em;
 }
 
+p {
+	font-family: "Courier New";
+	margin-bottom: 5px;
+}
+
+ul {
+	font-family: "Courier New";
+}
+
+ul li {
+	font-family: "Courier New";
+	margin-bottom: 1em;
+}
+
+ol {
+	font-family: "Courier New";
+}
+
 a, a:visited {
-	color: gray;
+	color: black;
 }
 
 a:hover {
-	color: #76BE34;
+	color: darkcyan;
 }
 
+img {
+	width: 45em;
+}
 
