@@ -3,7 +3,7 @@ body {
 	margin-top: 5em;
 	margin-left: 5em;
 	margin-right: auto;
-	max-width: 45em;
+	max-width: 50em;
 }
 
 h2 {
@@ -45,6 +45,6 @@ a:hover {
 }
 
 img {
-	width: 45em;
+	width: 50em;
 }
 
