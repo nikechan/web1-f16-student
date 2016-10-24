@@ -5,6 +5,11 @@ body {
 	margin-right: auto;
 	max-width: 43em;
 }
+
+#homepage {
+	margin-top: 14em;
+}
+
 nav ul {
 	list-style-type: none;
 }
