@@ -1,9 +1,10 @@
 body {
 	font-family: "Proxima Nova";
 	margin-top: 5em;
+	margin-bottom: 5em;
 	margin-left: 5em;
 	margin-right: auto;
-	max-width: 50em;
+	max-width: 45em;
 }
 
 h2 {
@@ -15,6 +16,12 @@ h2 {
 h3 {
 	font-family: "Proxima Nova";
 	letter-spacing: 1px;
+	margin-bottom: 1em;
+}
+
+h4 {
+	font-family: "Proxima Nova";
+	letter-spacing: .5px;
 	margin-bottom: 1em;
 }
 
@@ -46,6 +53,6 @@ a:hover {
 }
 
 img {
-	width: 50em;
+	width: 45em;
 }
 
