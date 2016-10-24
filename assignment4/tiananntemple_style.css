@@ -37,11 +37,12 @@ ol {
 }
 
 a, a:visited {
-	color: black;
+	color: orange;
+	text-decoration: none;
 }
 
 a:hover {
-	color: darkcyan;
+	color: black;
 }
 
 img {
