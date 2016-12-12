@@ -1,0 +1,178 @@
+html {
+	background: url("paintingfull.jpg") no-repeat fixed;
+	height: 100%;
+}
+
+body {
+	width: 80%; margin: 20px auto; padding: 20px;
+
+	margin-top: 0;
+	margin-bottom: 0;
+	min-height: 100%;
+	overflow: auto;
+	border: 1px;
+	background-color: white;
+}
+
+/*whole header*/
+.topheader {
+	position: relative;
+	height: 60px;
+	margin-top: 32px;
+
+	font-family: "Acrom";
+}
+
+
+/*Tian Ann Temple "logo"*/
+#header {
+	font-size: 30px;
+	font-family: 'Mirza', cursive;
+	margin-left: 15px;
+	color: red;
+	float: left;
+	display: inline;
+}
+
+#header a {
+	color: red;
+}
+
+#header a:visited {
+	color: red;
+}
+
+#header a:hover {
+	opacity: 0.7;
+	transition: 2s;
+}
+
+
+/*navigation tabs*/
+#menu {
+	display: inline;
+	font-family: "Avenir";
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	padding: 20px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+}
+nav a:hover {
+	opacity:0.6;
+	text-decoration: none;
+}
+
+/*center content*/
+
+#content {
+	margin-top: 50px;
+	width: 70%;
+	text-align: left;
+	margin-left: 32px;
+}
+
+#content h3 {
+	font-family: "Mirza";
+	font-size: 25px;
+}
+
+#content p {
+	font-family: "Avenir";
+	font-weight: lighter;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+#content ul li {
+	font-family: "Avenir";
+	line-height: 25px;
+}
+
+
+/*Holy Saints*/
+#holysaints {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#holysaints img {
+	width: 100px;
+	float: left;
+}
+
+/*Gallery images*/
+#gallery h3 {
+	font-family: "Mirza"
+	font-size: 25px;
+	text-align: left;
+}
+
+#gallery img {
+	margin-bottom: 25px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Classes*/
+
+#classes {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#classes img {
+	float: left;
+	width: 300px;
+	padding: 20px;
+}
+
+#contactform {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 15px;
+}
+
+iframe {
+	margin-left: 50px;
+
+}
+
+
+/*below is the slick image slideshow */
+
+
+.container {
+	max-width: 100%;
+	max-height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: 15;
+}
+
+img {
+  display: block;
+  width: 100%; /* always stretch images to fill carousel container */
+  height: auto;
+}  
+
+
+.image-carrossel .item img{
+  display: block;
+  width: 100%; /* always stretch images to fill carousel container */
+  height: auto;
+}
+
+.image-carrossel .item{ margin: 3px; /* border in between carousel images */ }
+#footer {
+  margin-top: 0;
+}
