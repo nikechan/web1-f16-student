@@ -1,0 +1,257 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	font-family: "Acrom";
+	background-color: white;
+	margin: 0;
+}
+
+#topheader {
+	position: fixed;
+	top: 0;
+	height: 60px;
+	padding: 2em 4em 0 2em;
+
+	color: black;
+	background-color: white;
+	opacity: 0.6;
+	width: 100%;
+
+	font-family: "Acrom";
+	text-align: left;
+	z-index: 20;
+}
+
+#topheader li {
+	padding-top: 0;
+}
+
+ul li {
+	display: inline;
+	padding: 30px;
+	padding-left: 80px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: ;
+	text-decoration: none;
+}
+
+#header {
+	font-size: 32px;
+	color: #1C1C1C;
+	float: left;
+}
+
+#header_nav {
+	float: right;
+	padding-right: 42px;
+
+}
+
+#subheader {
+	margin-top: 86.4px;
+	color: #1C1C1C;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+
+p {
+	color: #1C1C1C;
+	line-height: 22px;
+}
+
+#mainbody {
+	font-family: "Adobe Garamond Pro";
+	width: 600px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+
+.work {
+	margin-top: 40px;
+}
+
+.work img {
+	width: 70%;
+	margin-bottom: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#profileimages {
+	width: 20%;
+	margin-top: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	transform: rotate(45deg);
+}
+
+/*below is the image gallery of Works*/
+
+#imagegallery {
+  font-size: 0;
+  margin-top: 80px;
+}
+
+#imagegallery a {
+  font-size: 16px; 
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+#imagegallery a:hover {
+	color: white;
+	opacity: 0.7;
+	transition: 0.3s;
+}
+
+#imagegallery a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+#imagegallery @media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+/*below is the social media buttons*/
+
+@font-face {
+    font-family: 'si';
+    src: url('socicon-v1.5/socicon.eot');
+    src: url('socicon-v1.5/socicon.eot?#iefix') format('embedded-opentype'),
+         url('socicon-v1.5/socicon.woff') format('woff'),
+         url('socicon-v1.5/socicon.ttf') format('truetype'),
+         url('socicon-v1.5/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(socicon-v1.5/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    color: #ffffff;
+    background-color: #d6d6d6;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-behance:before {
+    content:'\e027';
+}
+.soc-linkedin:before {
+    content:'\e049';
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+
+
+
+/*below is the slick image slideshow */
+
+
+.container {
+	max-width: 80%;
+	max-height: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%; /* always stretch images to fill carousel container */
+  height: auto;
+}  
+
+
+.image-carrossel .item img{
+  display: block;
+  width: 100%; /* always stretch images to fill carousel container */
+  height: auto;
+}
+
+.image-carrossel .item{ margin: 3px; /* border in between carousel images */ }
+#footer {
+  margin-top: 0;
+}
